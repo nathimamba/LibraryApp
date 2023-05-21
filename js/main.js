@@ -52,7 +52,7 @@ function displayBooks() {
         <td>${book.author}</td>
          <td>${book.pages}</td>
         <td><button class="status-button">${book.status}</button></td>
-        <td><button class="delete">DELETE</button></td>
+        <td><button class=" d-none d-sm-block delete">DELETE</button></td>
         </tr>`;
         tableBody.insertAdjacentHTML("beforeend", htmlBook);
     });
